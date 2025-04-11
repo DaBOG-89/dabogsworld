@@ -1,0 +1,83 @@
+* {
+    margin: 0pt 0pt 0pt 0pt;
+    padding: 0pt 0pt 0pt 0pt;
+}
+body {
+    background-color: rgb(203, 198, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+div.header {
+    background-image: url(images/Screenshot\ 2025-04-11\ 011018.png);
+    opacity: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5em 0em;
+}
+
+div p {
+    font-size: larger;
+}
+
+div {
+    background-color: rgb(181, 172, 247);
+    opacity: 80%;
+    /**border: 0.2em double rebeccapurple;**/
+    text-align: center;
+    margin: 2em 0em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+div li {
+    list-style: none; 
+}
+
+div.footer {
+    background-color: rgb(53, 42, 119);    
+}
+
+div.footer img {
+    opacity: 70%;
+    width: 2em;
+    border-radius: 50%;
+}
+
+/**@media (max-width: 1440px) and (min-width: 1260px) {
+    body {
+        font-size: 0.9em;
+    }
+}**/
+
+@media (max-width: 1260px) and (min-width: 1080px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 900px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 720px) {
+    body {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 720px) and (min-width: 540px) {
+    body {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 540px) and (min-width: 360px) {
+    body {
+        font-size: 0.7em;
+    }
+}
